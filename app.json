@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "LIVLE",
+    "slug": "livle-app",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["android"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#ff9500",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff9500"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "app.tenmaendou.livle",
+      "icon": "./assets/icons/icon_ios.png",
+      "infoPlist": {
+        "CFBundleDevelopmentRegion":"ja_JP",
+        "NSPhotoLibraryUsageDescription": "LIVLEが画像を使用するためカメラロールにアクセスしようとしています。"
+      }
+    }
+  }
+}
